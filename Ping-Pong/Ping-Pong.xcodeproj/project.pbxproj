@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51A296E522358FF200F89798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A296E422358FF200F89798 /* AppDelegate.m */; };
-		51A296E822358FF200F89798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A296E722358FF200F89798 /* ViewController.m */; };
+		51A296E822358FF200F89798 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A296E722358FF200F89798 /* GameViewController.m */; };
 		51A296EB22358FF200F89798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A296E922358FF200F89798 /* Main.storyboard */; };
 		51A296ED22358FF400F89798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A296EC22358FF400F89798 /* Assets.xcassets */; };
 		51A296F022358FF400F89798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A296EE22358FF400F89798 /* LaunchScreen.storyboard */; };
@@ -19,8 +19,8 @@
 		51A296E022358FF200F89798 /* Ping-Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping-Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A296E322358FF200F89798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51A296E422358FF200F89798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51A296E622358FF200F89798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51A296E722358FF200F89798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51A296E622358FF200F89798 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		51A296E722358FF200F89798 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		51A296EA22358FF200F89798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51A296EC22358FF400F89798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51A296EF22358FF400F89798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				51A296E322358FF200F89798 /* AppDelegate.h */,
 				51A296E422358FF200F89798 /* AppDelegate.m */,
-				51A296E622358FF200F89798 /* ViewController.h */,
-				51A296E722358FF200F89798 /* ViewController.m */,
+				51A296E622358FF200F89798 /* GameViewController.h */,
+				51A296E722358FF200F89798 /* GameViewController.m */,
 				51A296E922358FF200F89798 /* Main.storyboard */,
 				51A296EC22358FF400F89798 /* Assets.xcassets */,
 				51A296EE22358FF400F89798 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A296E822358FF200F89798 /* ViewController.m in Sources */,
+				51A296E822358FF200F89798 /* GameViewController.m in Sources */,
 				51A296F322358FF400F89798 /* main.m in Sources */,
 				51A296E522358FF200F89798 /* AppDelegate.m in Sources */,
 			);
